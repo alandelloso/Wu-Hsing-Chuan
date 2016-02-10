@@ -1,0 +1,110 @@
+//Colors
+MainColor = #F44336
+LightColor = #FFCDD2
+DarkColor = #D32F2F
+AcentColor = #FFEB3B
+LightText = #FFF
+DarkText = rgba(0,0,0,0.8)
+//Fonts
+Poppins = 'Poppins', sans-serif
+Roboto = 'Roboto', sans-serif
+
+
+
+#estilos__bak-siu-lam
+	h2
+		background-color #1780A5
+	.estilos__fondo
+		background-color #47A7D3
+	.estilos__link
+		background-color #1780A5
+		transition all .5s ease
+		&:hover
+			background-color #47A7D3
+			transition all .2s ease
+
+#estilos__ving-tsun
+	h2
+		background-color #006600
+	.estilos__fondo
+		background-color #388F40
+	.estilos__link
+		background-color #006600
+		transition all .5s ease
+		&:hover
+			background-color #388F40
+			transition all .2s ease
+		
+#estilos__hung-gar
+	h2
+		background-color #3E196D
+	.estilos__fondo
+		background-color #66418D
+	.estilos__link
+		background-color #3E196D
+		transition all .5s ease
+		&:hover
+			background-color #66418D
+			transition all .2s ease
+
+#estilos__pa-kua-chang
+	h2
+		background-color #771B56
+	.estilos__fondo
+		background-color #C0438D
+	.estilos__link
+		background-color #771B56
+		transition all .5s ease
+		&:hover
+			background-color #C0438D
+			transition all .2s ease
+
+#estilos__tai-chi-chuan
+	h2
+		background-color #996600
+	.estilos__fondo
+		background-color #DABE33
+	.estilos__link
+		background-color #996600
+		transition all .5s ease
+		&:hover
+			background-color #DABE33
+			transition all .2s ease
+
+.estilos-card
+	position relative
+	overflow hidden
+	h2
+		color LightText
+		font-size 35px
+		position absolute
+		z-index -4
+		padding-bottom 180px
+		top 0
+		width 100%
+	img
+		margin-top 50px
+	.estilos__fondo
+		bottom 0
+		box-shadow rgba(0,0,0,0.5) 0px -5px 15px
+		height 70%
+		position absolute
+		width 100%
+		z-index -1
+	.estilos__link
+		a 
+			display block
+			padding 10px 0
+			text-decoration none
+			color LightText
+
+@media (min-width: 845px)
+	.estilos
+		display flex
+		flex-flow row wrap
+		justify-content space-between
+		.estilos-card
+			margin 0
+			flex-grow 1
+		
+
