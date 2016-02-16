@@ -1,0 +1,152 @@
+//Colors
+MainColor = #F44336
+LightColor = #FFCDD2
+DarkColor = #D32F2F
+AcentColor = #FFEB3B
+LightText = #FFF
+DarkText = rgba(0,0,0,0.8)
+//Systems Colors
+hunggarcolor = #66418D
+siulamcolor = #47A7D3
+taichicolor = #DABE33
+pakuacolor = #C0438D
+vingtsuncolor = #388F40
+hunggarcolordark = #3E196D
+siulamcolordark = #1780A5
+taichicolordark = #996600
+pakuacolordark = #771B56
+vingtsuncolordark = #006600
+//Fonts
+Poppins = 'Poppins', sans-serif
+Roboto = 'Roboto', sans-serif
+
+
+//Colores CSS
+.hung-gar-color
+	background-color hunggarcolor
+
+.siu-lam-color
+	background-color siulamcolor
+
+.tai-chi-color
+	background-color taichicolor
+
+.pa-kua-color
+	background-color pakuacolor
+
+.ving-tsun-color
+	background-color vingtsuncolor
+	
+.hung-gar-color-dark
+	background-color hunggarcolordark
+
+.siu-lam-color-dark
+	background-color siulamcolordark
+
+.tai-chi-color-dark
+	background-color taichicolordark
+
+.pa-kua-color-dark
+	background-color pakuacolordark
+
+.ving-tsun-color-dark
+	background-color vingtsuncolordark
+	
+//CSS Mobile
+.filial
+	margin .3em
+	background-color #EEE
+	text-align center
+	&:nth-child(odd)
+		background-color #DDD
+	.filial__titulo
+		font-size 25px
+		font-weight bold
+	.filial__foto-instructor
+		width 100px
+		border-radius 100%
+		margin 0
+	.filial__sifu
+		font-size 18px
+		font-weight 600
+		margin 0
+	.filial__horario
+		font-size 16px
+		margin 0
+	.filial__direccion
+		font-size 16px
+		margin 0
+	.filial__localidad
+		font-size 16px
+		font-weight bold
+		margin 0
+
+.linaje 
+	padding 1em
+	margin 0
+	background-image url(../img/dragon-dark.png)
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+
+.linaje__arrow
+	text-align center
+	display inline-block
+	.linaje__arrow__c1
+		width 20px
+		height 20px
+		border-radius 100%
+		background-color #FFF
+		display inline-block
+	.linaje__arrow__c2
+		width 30px
+		height 30px
+		border-radius 100%
+		background-color #FFF
+		display inline-block
+	.linaje__arrow__arrow
+		width 0 
+		height 0 
+		border-left 20px solid transparent
+		border-right 20px solid transparent
+		border-top 20px solid #FFF
+		display inline-block
+		margin-right 2.5px
+
+.maestro
+	margin 1em
+	.maestro__foto
+		width 150px
+		border-radius 100%
+
+.title
+	padding 1em
+	h1
+		color LightText
+		font-size 50px
+
+@media (min-width: 845px)
+	.filiales-flex
+		display flex
+		flex-flow row wrap
+		justify-content space-between
+		.filial
+			flex-grow 1
+			margin 0
+			&:first-child
+				flex-grow 2
+				
+@media (min-width: 1255px)	
+	#hung-gar-info
+		background-image url(../img/maestros/hung-gar/benny-hernan.jpg)
+		background-position left
+		background-repeat no-repeat
+		background-size cover
+		margin 0
+		padding 0
+		text-align right
+		p 
+			max-width 25em
+			padding-right 5%
+			text-align left
+

@@ -12,7 +12,6 @@ header('Content-Type: text/html; charset=utf-8');
 	<meta name="description" content="Escuela de kung fu tradicional Wu Hsing Chuan Argentina dirigida por el Sifu Neldo Sacomani." />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
-	<base href="../">
 	<!-- Title -->
 	<title>Wu Hsing Chuan Argentina</title>
 	<!--[if lt IE 9]>
@@ -28,32 +27,23 @@ header('Content-Type: text/html; charset=utf-8');
 		<link rel="icon" type="image/png" href="img/favicon.png">
 	</head>
 	<body>
-		<?php include "../templates/navigation.html"; ?>
-		<?php include "../templates/header.html"; ?>
+		<?php include "templates/navigation.html"; ?>
+		<?php include "templates/header.html"; ?>
 		<!-- Content Starts Here -->
 		<main>
 			<section class="estilos">
-				<article class="estilos-card" id="estilos__bak-siu-lam">
-					<h2>BAK SIU LAM</h2>
-					<img src="img/bak-siu-lam.png" alt="">
-					<div class="estilos__fondo">
-					</div>	
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
-				</article>
-				<article class="estilos-card" id="estilos__ving-tsun">
-					<h2>VING TSUN</h2>
-					<img src="img/wing-chun.png" alt="">
-					<div class="estilos__fondo">
-					</div>
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
-				</article>
 				<article class="estilos-card" id="estilos__hung-gar">
 					<h2>HUNG GAR</h2>
 					<img src="img/hung-gar.png" alt="">
+					<div class="estilos__fondo">
+					</div>
+					<div class="estilos__link">
+						<a href="estilos/hung-gar">MÁS INFORMACIÓN</a>
+					</div>
+				</article>
+				<article class="estilos-card" id="estilos__tai-chi-chuan">
+					<h2>TAI CHI CHUAN</h2>
+					<img src="img/tai-chi.png" alt="">
 					<div class="estilos__fondo">
 					</div>
 					<div class="estilos__link">
@@ -69,11 +59,20 @@ header('Content-Type: text/html; charset=utf-8');
 						<a href="#">MÁS INFORMACIÓN</a>
 					</div>
 				</article>
-				<article class="estilos-card" id="estilos__tai-chi-chuan">
-					<h2>TAI CHI CHUAN</h2>
-					<img src="img/tai-chi.png" alt="">
+				<article class="estilos-card" id="estilos__ving-tsun">
+					<h2>VING TSUN</h2>
+					<img src="img/wing-chun.png" alt="">
 					<div class="estilos__fondo">
 					</div>
+					<div class="estilos__link">
+						<a href="#">MÁS INFORMACIÓN</a>
+					</div>
+				</article>
+				<article class="estilos-card" id="estilos__bak-siu-lam">
+					<h2>BAK SIU LAM</h2>
+					<img src="img/bak-siu-lam.png" alt="">
+					<div class="estilos__fondo">
+					</div>	
 					<div class="estilos__link">
 						<a href="#">MÁS INFORMACIÓN</a>
 					</div>
@@ -81,7 +80,7 @@ header('Content-Type: text/html; charset=utf-8');
 			</section>
 		</main>
 		<!-- Content Finish Here -->
-		<?php include "../templates/footer.html"; ?>
+		<?php include "templates/footer.html"; ?>
 		<!-- Javascript Libraries -->
 		<script src="libs/jquery-1.11.2.min.js"></script>
 		<script src="libs/animatescroll.min.js"></script>

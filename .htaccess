@@ -2,6 +2,9 @@ AddDefaultCharset UTF-8
 
 RewriteEngine on
 
+RewriteRule ^inicio?$ index.php
+RewriteRule ^estilos/hung-gar?$ sections/estilos/hung-gar.php
+
 RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteRule ^([^\.]+)$ $1.php [NC,L]

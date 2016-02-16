@@ -144,7 +144,7 @@ h3
 #mobilelinks
 	background-color MainColor
 	font-family Poppins
-	font-size 16px
+	font-size 20px
 	height 100%
 	transition all .5s ease 
 	position fixed
@@ -154,13 +154,16 @@ h3
 	.mobilelinks__list
 		margin 0
 		padding 0
+		text-align left
 		.mobilelinks__list__item
 			list-style none
 			a
 				color LightText
 				display block
-				padding 1em 8em 1em .5em
+				padding 1em 5em 1em .5em
 				text-decoration none
+				
+				
 #menudarker
 	background-color rgba(0,0,0,0.5)
 	display none
@@ -200,14 +203,14 @@ h3
 		max-width 35em
 		padding 0 .3em
 .dark
-	h2
+	h1, h2, h3
 		color #555
 	p 
 		color DarkText
 		
 .light 
-	h2
-		color #EEE
+	h1, h2, h3
+		color LightText
 	p 
 		color LightText
 		
@@ -245,6 +248,19 @@ h3
 		right 9px
 		top 18px
 		width 20px
+
+.ink
+  display block
+  position absolute
+  background AcentColor
+  border-radius 100%
+  transform scale(0)
+  &.animate
+    animation ripple 0.65s linear
+    
+@keyframes ripple {
+		100% {opacity: 0; transform: scale(2.5);}
+}
 	
 
 /*////////Tablet Styling////////*/
@@ -271,6 +287,12 @@ h3
 			.header__hgroup__secondtitle
 				display block
 				font-size 20px
+	
+	#mobilelinks
+		display none
+	
+	#menudarker
+		display none !important
 				
 	#mainnav
 		background-color DarkColor
