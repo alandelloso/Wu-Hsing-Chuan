@@ -14,7 +14,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->
 	<title>Wu Hsing Chuan Argentina</title>
-	<base href="../">
+	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
 		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
@@ -163,7 +163,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<!-- Javascript Libraries -->
 	<script src="libs/jquery-1.11.2.min.js"></script>
 	<script src="libs/animatescroll.min.js"></script>
-	<script src="libs/prefixfree.js"></script>
+	<script src="libs/prefixfree.min.js"></script>
 	<script src="js/template.js"></script>
 </body>
 </html>

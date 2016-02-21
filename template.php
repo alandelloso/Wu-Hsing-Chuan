@@ -37,7 +37,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<!-- Javascript Libraries -->
 	<script src="libs/jquery-1.11.2.min.js"></script>
 	<script src="libs/animatescroll.min.js"></script>
-	<script src="libs/prefixfree.js"></script>
+	<script src="libs/prefixfree.min.js"></script>
 	<script src="js/template.js"></script>
 </body>
 </html>

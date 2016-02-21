@@ -38,7 +38,7 @@ header('Content-Type: text/html; charset=utf-8');
 					<div class="estilos__fondo">
 					</div>
 					<div class="estilos__link">
-						<a href="estilos/hung-gar">MÁS INFORMACIÓN</a>
+						<a href="sections/estilos/hung-gar">MÁS INFORMACIÓN</a>
 					</div>
 				</article>
 				<article class="estilos-card" id="estilos__tai-chi-chuan">
@@ -84,7 +84,7 @@ header('Content-Type: text/html; charset=utf-8');
 		<!-- Javascript Libraries -->
 		<script src="libs/jquery-1.11.2.min.js"></script>
 		<script src="libs/animatescroll.min.js"></script>
-		<script src="libs/prefixfree.js"></script>
+		<script src="libs/prefixfree.min.js"></script>
 		<script src="js/template.js"></script>
 	</body>
 	</html>
