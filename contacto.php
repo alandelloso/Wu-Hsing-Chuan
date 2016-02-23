@@ -22,6 +22,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<!-- CSS Links -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/contacto.css">
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="img/favicon.png">
 </head>
@@ -29,8 +30,23 @@ header('Content-Type: text/html; charset=utf-8');
 	<?php include "templates/navigation.html"; ?>
 	<?php include "templates/header.html"; ?>
 	<!-- Content Starts Here -->
-<main class="ccontainer">
-	
+<main>
+	<section class="contacto">
+		<h1>Contacto</h1>
+		<article class="contacto__mail">
+			<h2>Mail</h2>
+			<h3>clases@wuhsingchuan.com.ar</h3>
+		</article>
+		<article class="contacto__direccion">
+			<h2>Sede Central</h2>
+			<div class="contacto__direccion__datos">
+				<p>Calle 6 Nº 1210 (Entre 57 y 58)</p>
+				<strong>La Plata - Argentina</strong>
+				<p>+54 (0221) 489-0001</p>
+			</div>
+			<div id="contacto__direccion__mapa"></div>
+		</article>
+	</section>
 </main>
 	<!-- Content Finish Here -->
 	<?php include "templates/footer.html"; ?>
@@ -39,5 +55,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<script src="libs/animatescroll.min.js"></script>
 	<script src="libs/prefixfree.min.js"></script>
 	<script src="js/template.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+	<script src="js/maps.js"></script>
 </body>
 </html>

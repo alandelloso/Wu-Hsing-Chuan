@@ -58,6 +58,13 @@ $(".mobilelinks__list__item").click(function(e){
 })
 //<<<<<<Navigation Material Effect Function END>>>>>
 
+var title = $('.mobilenav__title').text().toLowerCase();
+var tclass = '#' + title;
+$(tclass).addClass('selected');
+
+
+
+
 //Events
 $('#movile-menu').on('click', MovileMenu);
 $('#menudarker').on('click', MovileMenu);
