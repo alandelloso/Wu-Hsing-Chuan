@@ -11,100 +11,101 @@ Roboto = 'Roboto', sans-serif
 
 
 
-#estilos__bak-siu-lam
-	h2
-		background-color #1780A5
-	.estilos__fondo
-		background-color #47A7D3
-	.estilos__link
-		background-color #1780A5
-		transition all .5s ease
+.estilos
+	padding 1em
+	text-align center
+	.estilos-card
+		background-color #222
+		border-radius 100%
+		max-height 300px
+		max-width 300px
+		margin 0.5em auto .5em auto
+		position relative
+		text-align center
+		overflow hidden
+		transition all .6s ease-out
 		&:hover
-			background-color #47A7D3
-			transition all .2s ease
-
-#estilos__ving-tsun
-	h2
-		background-color #006600
-	.estilos__fondo
-		background-color #388F40
-	.estilos__link
-		background-color #006600
-		transition all .5s ease
-		&:hover
-			background-color #388F40
-			transition all .2s ease
-		
-#estilos__hung-gar
-	h2
-		background-color #3E196D
-	.estilos__fondo
-		background-color #66418D
-	.estilos__link
-		background-color #3E196D
-		transition all .5s ease
-		&:hover
-			background-color #66418D
-			transition all .2s ease
-
-#estilos__pa-kua-chang
-	h2
-		background-color #771B56
-	.estilos__fondo
-		background-color #C0438D
-	.estilos__link
-		background-color #771B56
-		transition all .5s ease
-		&:hover
-			background-color #C0438D
-			transition all .2s ease
-
-#estilos__tai-chi-chuan
-	h2
-		background-color #996600
-	.estilos__fondo
-		background-color #DABE33
-	.estilos__link
-		background-color #996600
-		transition all .5s ease
-		&:hover
-			background-color #DABE33
-			transition all .2s ease
-
-.estilos-card
-	position relative
-	overflow hidden
-	h2
-		color LightText
-		font-size 35px
-		position absolute
-		z-index -4
-		padding-bottom 180px
-		top 0
-		width 100%
-	img
-		margin-top 50px
-	.estilos__fondo
-		bottom 0
-		box-shadow rgba(0,0,0,0.5) 0px -5px 15px
-		height 70%
-		position absolute
-		width 100%
-		z-index -1
-	.estilos__link
-		a 
+			box-shadow rgba(0,0,0,0.5) 3px 3px 15px
+			transition all .3s ease-in
+		.estilos-card-link
 			display block
-			padding 10px 0
-			text-decoration none
+			padding 50%
+			border-radius 100%
+		.estilos-card-name
+			bottom 25%
 			color LightText
+			font-size 140%
+			font-weight bold
+			left 0
+			margin-left auto
+			margin-right auto
+			position absolute
+			right 0
 
+#ving-tsun-card
+	background-image url(../img/styles-card/ving-tsun-card_mobile.png)
+	background-repeat no-repeat
+	background-size 98%
+	background-position center
+	
+#hung-gar-card
+	background-image url(../img/styles-card/hung-gar-card_mobile.png)
+	background-repeat no-repeat
+	background-size 98%
+	background-position center
+	
+#bak-siu-lam-card
+	background-image url(../img/styles-card/bak-siu-lam-card_mobile.png)
+	background-repeat no-repeat
+	background-size 98%
+	background-position center
+	
+#tai-chi-card
+	background-image url(../img/styles-card/tai-chi-card_mobile.png)
+	background-repeat no-repeat
+	background-size 98%
+	background-position center
+	
+#pa-kua-card
+	background-image url(../img/styles-card/pa-kua-card_mobile.png)
+	background-repeat no-repeat
+	background-size 98%
+	background-position center
+			
 @media (min-width: 845px)
-	.estilos
-		display flex
+	// main 
+	// 	// background-image url(../img/fondo-estilos.jpg)
+	// 	background-repeat no-repeat
+	// 	background-size cover
+	// 	background-position center
+	.flex-box
+		padding 0 40px
+		display -webkit-box
+		display -moz-box
+		display -ms-flexbox
+		display -webkit-flex
 		flex-flow row wrap
+		display flex
 		justify-content space-between
-		.estilos-card
-			margin 0
-			flex-grow 1
+		
+	.estilos-card
+		height 300px
+		width 300px
+		margin .5em 0 !important
+		
+	#hung-gar-card
+		background-image url(../img/styles-card/hung-gar-card.png)
+		
+	#bak-siu-lam-card
+		background-image url(../img/styles-card/bak-siu-lam-card.png)
+		
+	#tai-chi-card
+		background-image url(../img/styles-card/tai-chi-card.png)
+		
+	#pa-kua-card
+		background-image url(../img/styles-card/pa-kua-card.png)
+			
+			
+			
 		
 

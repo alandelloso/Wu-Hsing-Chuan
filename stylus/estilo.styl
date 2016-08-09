@@ -5,58 +5,19 @@ DarkColor = #D32F2F
 AcentColor = #FFEB3B
 LightText = #FFF
 DarkText = rgba(0,0,0,0.8)
-//Systems Colors
-hunggarcolor = #66418D
-siulamcolor = #47A7D3
-taichicolor = #DABE33
-pakuacolor = #C0438D
-vingtsuncolor = #388F40
-hunggarcolordark = #3E196D
-siulamcolordark = #1780A5
-taichicolordark = #996600
-pakuacolordark = #771B56
-vingtsuncolordark = #006600
+
 //Fonts
 Poppins = 'Poppins', sans-serif
 Roboto = 'Roboto', sans-serif
-
-
-//Colores CSS
-.hung-gar-color
-	background-color hunggarcolor
-
-.siu-lam-color
-	background-color siulamcolor
-
-.tai-chi-color
-	background-color taichicolor
-
-.pa-kua-color
-	background-color pakuacolor
-
-.ving-tsun-color
-	background-color vingtsuncolor
-	
-.hung-gar-color-dark
-	background-color hunggarcolordark
-
-.siu-lam-color-dark
-	background-color siulamcolordark
-
-.tai-chi-color-dark
-	background-color taichicolordark
-
-.pa-kua-color-dark
-	background-color pakuacolordark
-
-.ving-tsun-color-dark
-	background-color vingtsuncolordark
 	
 //CSS Mobile
 .filial
 	margin .3em
 	background-color #EEE
 	text-align center
+	width 350px
+	margin .5em auto .5em auto
+	border-radius 30px
 	&:nth-child(odd)
 		background-color #DDD
 	.filial__titulo
@@ -80,18 +41,28 @@ Roboto = 'Roboto', sans-serif
 		font-size 16px
 		font-weight bold
 		margin 0
+		
+.filiales-localidad
+	background-color #444
+	color LightText !important
+	
+.impar
+	visibility hidden
 
 .linaje 
 	padding 1em
+	background-color #444
 	margin 0
 	background-image url(../img/dragon-dark.png)
 	background-position center
 	background-repeat no-repeat
 	background-size cover
+	.linaje-same-cat
+		display inline-block
 
 .linaje__arrow
 	text-align center
-	display inline-block
+	display block
 	.linaje__arrow__c1
 		width 20px
 		height 20px
@@ -129,12 +100,13 @@ Roboto = 'Roboto', sans-serif
 	.filiales-flex
 		display flex
 		flex-flow row wrap
+		padding 0 1em
+		margin 0 auto
+		max-width 1300px
 		justify-content space-between
 		.filial
-			flex-grow 1
-			margin 0
-			&:first-child
-				flex-grow 2
+			flex-grow 0
+			margin .5em 0 .5em 0
 				
 @media (min-width: 1255px)	
 	#hung-gar-info
@@ -145,8 +117,47 @@ Roboto = 'Roboto', sans-serif
 		margin 0
 		padding 0
 		text-align right
-		p 
-			max-width 25em
+		
+	#ving-tsun-info
+		background-image url(../img/maestros/ving-tsun/neldo-lun-kai.jpg)
+		background-repeat no-repeat
+		background-size cover
+		margin 0
+		padding 0
+		text-align right
+		
+	#bak-siu-lam-info
+		background-image url(../img/maestros/bak-siu-lam/fondo-bak-siu-lam.jpg)
+		background-repeat no-repeat
+		background-size cover
+		margin 0
+		padding 0
+		text-align right
+		
+	#tai-chi-info
+		background-image url(../img/maestros/tai-chi/fondo-tai-chi.jpg)
+		background-repeat no-repeat
+		background-size cover
+		margin 0
+		padding 0
+		text-align right
+	
+	#pa-kua-info
+		background-image url(../img/maestros/pa-kua/fondo-pa-kua.jpg)
+		background-repeat no-repeat
+		background-size cover
+		margin 0
+		padding 0
+		text-align right
+		
+	.informacion
+		text-align left
+		.informacion-container
+			max-width 30em
+			display inline-block
 			padding-right 5%
 			text-align left
+			
+				
+				
 

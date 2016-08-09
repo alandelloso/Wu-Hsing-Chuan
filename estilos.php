@@ -32,51 +32,34 @@ header('Content-Type: text/html; charset=utf-8');
 		<!-- Content Starts Here -->
 		<main>
 			<section class="estilos">
-				<article class="estilos-card" id="estilos__hung-gar">
-					<h2>HUNG GAR</h2>
-					<img src="img/hung-gar.png" alt="">
-					<div class="estilos__fondo">
-					</div>
-					<div class="estilos__link">
-						<a href="sections/estilos/hung-gar">MÁS INFORMACIÓN</a>
-					</div>
+				<h1>Estilos</h1>
+				<div class="flex-box">
+				<article class="estilos-card" id="ving-tsun-card">
+					<a href="sections/estilos/ving-tsun" class="estilos-card-link">
+						<h3 class="estilos-card-name">Ving Tsun</h3>
+					</a>
 				</article>
-				<article class="estilos-card" id="estilos__tai-chi-chuan">
-					<h2>TAI CHI CHUAN</h2>
-					<img src="img/tai-chi.png" alt="">
-					<div class="estilos__fondo">
-					</div>
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
+				<article class="estilos-card" id="hung-gar-card">
+					<a href="sections/estilos/hung-gar" class="estilos-card-link">
+						<h3 class="estilos-card-name">Hung Gar</h3>
+					</a>
 				</article>
-				<article class="estilos-card" id="estilos__pa-kua-chang">
-					<h2>PA KUA CHANG</h2>
-					<img src="img/pa-kua.png" alt="">
-					<div class="estilos__fondo">
-					</div>
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
+				<article class="estilos-card" id="bak-siu-lam-card">
+					<a href="sections/estilos/bak-siu-lam" class="estilos-card-link">
+						<h3 class="estilos-card-name">Bak Siu Lam</h3>
+					</a>
 				</article>
-				<article class="estilos-card" id="estilos__ving-tsun">
-					<h2>VING TSUN</h2>
-					<img src="img/wing-chun.png" alt="">
-					<div class="estilos__fondo">
-					</div>
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
+				<article class="estilos-card">
+					<a href="sections/estilos/tai-chi-chuan" class="estilos-card-link" id="tai-chi-card">
+						<h3 class="estilos-card-name">Tai Chi Chuan</h3>
+					</a>
 				</article>
-				<article class="estilos-card" id="estilos__bak-siu-lam">
-					<h2>BAK SIU LAM</h2>
-					<img src="img/bak-siu-lam.png" alt="">
-					<div class="estilos__fondo">
-					</div>	
-					<div class="estilos__link">
-						<a href="#">MÁS INFORMACIÓN</a>
-					</div>
+				<article class="estilos-card" id="pa-kua-card">
+					<a href="sections/estilos/pa-kua-chang" class="estilos-card-link">
+						<h3 class="estilos-card-name">Pa Kua Chang</h3>
+					</a>
 				</article>
+				</div>
 			</section>
 		</main>
 		<!-- Content Finish Here -->

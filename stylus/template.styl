@@ -1,6 +1,5 @@
 //Imports
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,600")
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,500")
 
 @font-face
   font-family 'icomoon'
@@ -45,7 +44,6 @@ LightText = #FFF
 DarkText = rgba(0,0,0,0.8)
 //Fonts
 Poppins = 'Poppins', sans-serif
-Roboto = 'Roboto', sans-serif
 
 *, *::after, *::before
 	box-sizing border-box
@@ -53,7 +51,7 @@ Roboto = 'Roboto', sans-serif
 body
 	background-color LightText
 	color DarkText
-	font-family Roboto
+	font-family Poppins
 	font-size 16px
 	text-align center
 	
@@ -73,14 +71,47 @@ h3
 	font-weight 400
 	
 #mainfooter
-	font-family Poppins
 	background-color DarkColor
 	color LightText
+	font-family Poppins
 	margin 0
 	overflow hidden
 	text-align center
 	p 
 		margin 0.5em
+	.mainfooter__social
+		margin 1em
+		padding 0
+		.mainfooter__social__button
+			background-color #DDD
+			border-radius 100%
+			box-shadow rgba(0,0,0,0.3) 3px 3px 5px
+			display inline-block
+			transition all 0.5s ease-out
+			.mainfooter__social__button__link
+				color DarkText
+				display block
+				font-size 35px
+				padding 10px
+				text-decoration none
+	.facebook-link
+		&:hover
+			background-color #3B5998
+			transition all 0.2s ease-in
+			a 
+			 color LightText !important
+	.blogger-link
+		&:hover
+			background-color #f9760b
+			transition all 0.2s ease-in
+			a 
+			 color LightText !important
+	.youtube-link
+		&:hover
+			background-color #e62117
+			transition all 0.2s ease-in
+			a 
+			 color LightText !important
 	
 	
 
@@ -272,13 +303,16 @@ vendors = official
 @media (min-width: 845px)
 	body
 		font-size 20px 
+	
+	.mobile-only
+		display none
 		
 	#mainheader
 		overflow hidden
 		background-image url(../img/logo-wu-hsing-chuan.png), url(../img/scales.png)
-		background-position 2% 25%, center
+		background-position 2% 25%, 15% 20%
 		background-repeat no-repeat
-		background-size 100px, cover
+		background-size 100px, 150%
 		margin-top 120px
 		.header__hgroup
 			left 150px
@@ -358,7 +392,7 @@ vendors = official
 				transition all 0.2s ease-in
 				a 
 				 color LightText !important
-	
+				 
 	#mobilenav
 		display none
 		
@@ -374,7 +408,7 @@ vendors = official
 		background-image url(../img/logo-wu-hsing-chuan.png), url(../img/hung-gar.png), url(../img/tai-chi.png), url(../img/pa-kua.png), url(../img/wing-chun.png), url(../img/bak-siu-lam.png), url(../img/scales.png)
 		background-position 2% 25%, 55% 45%, 68% 45%, 80% 45%, 89% 45%, 99% 45%, 45% 20%
 		background-repeat no-repeat
-		background-size 150px, 120px, 120px, 120px, 120px, 120px, auto
+		background-size 150px, 120px, 120px, 120px, 120px, 120px, 120%
 		height 180px
 		position relative
 		.header__hgroup
@@ -450,7 +484,7 @@ vendors = official
 @media (min-width: 1700px)
 	#mainheader
 		background-position 2% 25%, 50% 45%, 63% 45%, 75% 45%, 85% 35%, 97%, 45%
-		background-size 150px, 165px, 165px, 165px, 165px, 165px, auto
+		background-size 150px, 165px, 165px, 165px, 165px, 165px, cover
 		.header__hgroup
 			left 250px
 			.header__hgroup__maintitle
