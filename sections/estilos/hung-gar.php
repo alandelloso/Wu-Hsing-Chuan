@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 		<![endif]-->
 		<!-- CSS Links -->
@@ -109,6 +109,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -124,6 +126,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -133,12 +137,14 @@ header('Content-Type: text/html; charset=utf-8');
 							<img src="img/maestros/hung-gar/marcelo-heredia.jpg" alt="Marcelo Heredia" class="filial__foto-instructor">
 							<div class="group1">
 								<h3 class="filial__sifu">Sihing Marcelo Heredia</h3>
-								<p class="filial__horario">Martes y Viernes 10:00 a 11:30</p>
+								<p class="filial__horario">Martes y Jueves 10:00 a 12:00</p>
 							</div>
 							<div class="group2">
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 					</div>
@@ -159,26 +165,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Alberti 1541 3er Piso</p>
 								<br>
 								<p class="filial__localidad">C.A.B.A. - Argentina</p>
-							</div>
-						</div>
-						<!--FIN FILIAL-->
-					</div>
-				</article>
-				<article class="filiales-uruguay">
-					<h3 class="filiales-localidad">Montevideo - Uruguay</h3>
-					<div class="filiales-flex">
-						<!--INICIO FILIAL-->
-						<div class="filial">
-							<h3 class="filial__titulo">Filial Montevideo</h3>
-							<img src="img/maestros/hung-gar/bruno-farias.jpg" alt="Hernán Dell'Oso" class="filial__foto-instructor">
-							<div class="group1">
-								<h3 class="filial__sifu">Instructor Bruno Farías</h3>
-								<p class="filial__horario">Martes y Jueves de 18:30 a 19:30</p>
-							</div>
-							<div class="group2">
-								<p class="filial__direccion">Uruguay 1675 bis</p>
 								<br>
-								<p class="filial__localidad">Montevideo - Uruguay</p>
+								<p class="filial__mail">hdelloso@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->

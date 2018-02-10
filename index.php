@@ -16,7 +16,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<title>Wu Hsing Chuan Argentina</title>
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 		<![endif]-->
 		<!-- CSS Links -->
@@ -34,15 +34,16 @@ header('Content-Type: text/html; charset=utf-8');
 			<section id="quienes-somos" class="content-card dark">
 					<div class="ccontainer">
 						<h2>Nuestra Asociación</h2>
-						<p>La Asociación <strong>Wu Hsing Chuan</strong>, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservando estas artes para las generaciones futuras.</p>
+						<p class="description">La Asociación <strong>Wu Hsing Chuan</strong>, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservando estas artes para las generaciones futuras.</p>
 						<p>Los conocimientos de los antiguos maestros del arte marcial, legados de generación en generación, encuentran su cauce natural dentro de esta institución, a través de la cual, se informará sobre tales saberes a todos los amantes del verdadero <strong>Kung Fu Chino</strong>.</p>
 					</div>
 			</section>
 			<section id="sacomani" class="content-card light">
 					<div class="ccontainer">
-						<h2>Sifu Neldo Sacomani</h2>
-						<p>El Sifu <strong>Neldo Omar Sacomani</strong>, de reconocida trayectoria en la práctica del Kung Fu Wushu, es el director de la Escuela Internacional <strong>Wu Hsing Chuan</strong>, entidad con base en la ciudad de La Plata, Argentina.</p>
-						<p>Su entrenamiento en las artes marciales clásicas del Kung Fu Wushu comenzó en el año 1971. Es presidente de la Asociación de Artes Marciales Chinas Tradicionales "Wu Hsing Chuan" de Wushu Kung Fu, desde el año 1983. </p>
+						<h2>G.M. Neldo Sacomani</h2>
+						<p class="description">El G.M. <strong>Neldo Omar Sacomani</strong>, nacido el 13 de julio de 1956, comenzó su entrenamiento formal en las artes marciales en el año 1967 a los 11 años de edad, y tras un extenso periodo de, aprendizaje que abarcó diversos sistemas y estilos. Desembocó en una vida dedicada a la investigación, desarrollo y difusión de sus queridas Artes Marciales Tradicionales del Kung Fu Chino, con la intención de preservar estas artes para las generaciones futuras.</p>
+						<div class="yellow-button"><a href="sections/maestros/neldo-sacomani">Más Información</a>
+						</div>
 					</div>
 			</section>
 		</main>

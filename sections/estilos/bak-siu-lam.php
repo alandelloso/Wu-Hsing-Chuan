@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 		<![endif]-->
 		<!-- CSS Links -->
@@ -36,7 +36,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<section class="content-card dark informacion" id="bak-siu-lam-info">
 				<div class="informacion-container">
 					<h1 class="title__h1">Bak Siu Lam</h1>
-					<p>El Bak Siu Lam Kune (Boxeo Norteño de Shaolin), cuyo mayor referente ha sido el Gran Maestro Ku Yu Cheung que desarrolló y difundió los conceptos y formas contenidas en el estilo, es una técnica de Kung Fu proveniente (como lo indica su nombre) de las regiones norteñas del país (China), en donde los golpes de las piernas son muy poderosos, y el boxeo de sus puños es rápido, relajo y continuo.</p>
+					<p>El Bak Siu Lam Kune (Boxeo Norteño de Shaolin), cuyo mayor referente ha sido el Gran Maestro Ku Yu Cheung que desarrolló y difundió los conceptos y formas contenidas en el estilo, es una técnica de Kung Fu proveniente (como lo indica su nombre) de las regiones norteñas del país (China), en donde los golpes de las piernas son muy poderosos, y el boxeo de sus puños es rápido, relajado y continuo.</p>
 				</div>
 			</section>
 			<section class="linaje content-card light">
@@ -118,6 +118,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -126,13 +128,15 @@ header('Content-Type: text/html; charset=utf-8');
 							<h3 class="filial__titulo">Sede Central</h3>
 							<img src="img/maestros/bak-siu-lam/ulises-nicolino.jpg" alt="Ulises Nicolino" class="filial__foto-instructor">
 							<div class="group1">
-								<h3 class="filial__sifu">Instructror Ulises Nicolino</h3>
+								<h3 class="filial__sifu">Instructor Ulises Nicolino</h3>
 								<p class="filial__horario">Lunes, Miércoles y Viernes 19:30</p>
 							</div>
 							<div class="group2">
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -148,6 +152,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -163,6 +169,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 							<!--FIN FILIAL-->
 							<!--INICIO FILIAL-->
@@ -191,6 +199,8 @@ header('Content-Type: text/html; charset=utf-8');
 									<p class="filial__direccion">Lavalleja 1222</p>
 									<br>
 									<p class="filial__localidad">C.A.B.A. - Argentina</p>
+									<br>
+									<p class="filial__mail">creymundo@wuhsingchuan.com.ar</p>
 								</div>
 							</div>
 							<!--FIN FILIAL-->
@@ -206,6 +216,8 @@ header('Content-Type: text/html; charset=utf-8');
 									<p class="filial__direccion">Lavalleja 1222</p>
 									<br>
 									<p class="filial__localidad">C.A.B.A. - Argentina</p>
+									<br>
+									<p class="filial__mail">creymundo@wuhsingchuan.com.ar</p>
 								</div>
 							</div>
 							<!--FIN FILIAL-->
@@ -230,6 +242,8 @@ header('Content-Type: text/html; charset=utf-8');
 									<p class="filial__direccion">Caicobé 3640</p>
 									<br>
 									<p class="filial__localidad">C.A.B.A. - Argentina</p>
+									<br>
+								<p class="filial__mail">acanepa@wuhsingchuan.com.ar</p>
 								</div>
 							</div>
 							<!--FIN FILIAL-->
@@ -245,6 +259,8 @@ header('Content-Type: text/html; charset=utf-8');
 									<p class="filial__direccion">Caicobé 3640</p>
 									<br>
 									<p class="filial__localidad">C.A.B.A. - Argentina</p>
+									<br>
+									<p class="filial__mail">acanepa@wuhsingchuan.com.ar</p>
 								</div>
 							</div>
 							<!--FIN FILIAL-->
@@ -260,6 +276,8 @@ header('Content-Type: text/html; charset=utf-8');
 									<p class="filial__direccion">Caicobé 3640</p>
 									<br>
 									<p class="filial__localidad">C.A.B.A. - Argentina</p>
+									<br>
+								<p class="filial__mail">acanepa@wuhsingchuan.com.ar</p>
 								</div>
 							</div>
 							<!--FIN FILIAL-->

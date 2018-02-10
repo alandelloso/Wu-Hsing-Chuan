@@ -16,7 +16,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<title>Wu Hsing Chuan Argentina</title>
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 	<![endif]-->
 	<!-- CSS Links -->

@@ -53,6 +53,7 @@ body
 	color DarkText
 	font-family Poppins
 	font-size 16px
+	margin 0
 	text-align center
 	
 h1, h2, h3
@@ -243,6 +244,21 @@ h3
 		color LightText
 	p 
 		color LightText
+		
+.yellow-button
+	a 
+		text-decoration none
+		color DarkText
+		display block
+		padding .3em .5em
+		background-color AcentColor
+		display inline-block
+		border-radius 10px
+		transition all .5s ease-out
+		&:hover
+			transition all .3s ease-in
+			background-color #FFF280
+			box-shadow rgba(0,0,0,0.5) 3px 3px 5px
 		
 .ccontainer
 	display inline-block

@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 		<![endif]-->
 		<!-- CSS Links -->
@@ -45,7 +45,7 @@ header('Content-Type: text/html; charset=utf-8');
 				<h2>Linaje</h2>
 				<article class="maestro">
 					<h3 class="maestro__nombre">Dong Haiquan</h3>
-					<img src="img/maestros/pa-kua/dong-haiquan.jpg" alt="Dong Haiquan" class="maestro__foto">
+					<!-- <img src="img/maestros/pa-kua/dong-haiquan.jpg" alt="Dong Haiquan" class="maestro__foto"> -->
 				</article>
 				<div class="linaje__arrow">
 					<div class="linaje__arrow__c1"></div>
@@ -56,7 +56,7 @@ header('Content-Type: text/html; charset=utf-8');
 				</div>
 				<article class="maestro">
 					<h3 class="maestro__nombre">Yin Fu</h3>
-					<img src="img/maestros/pa-kua/yin-fu.jpg" alt="Yin Fu" class="maestro__foto">
+				<!-- 	<img src="img/maestros/pa-kua/yin-fu.jpg" alt="Yin Fu" class="maestro__foto"> -->
 				</article>
 				<div class="linaje__arrow">
 					<div class="linaje__arrow__c1"></div>
@@ -67,7 +67,7 @@ header('Content-Type: text/html; charset=utf-8');
 				</div>
 				<article class="maestro">
 					<h3 class="maestro__nombre">Gong Baotian</h3>
-					<img src="img/maestros/pa-kua/gong-baotian.jpg" alt="Gong Baotian" class="maestro__foto">
+				<!-- 	<img src="img/maestros/pa-kua/gong-baotian.jpg" alt="Gong Baotian" class="maestro__foto"> -->
 				</article>
 				<div class="linaje__arrow">
 					<div class="linaje__arrow__c1"></div>
@@ -78,7 +78,7 @@ header('Content-Type: text/html; charset=utf-8');
 				</div>
 				<article class="maestro">
 					<h3 class="maestro__nombre">Sun Ruwen</h3>
-					<img src="img/maestros/pa-kua/sun-ruwen.jpg" alt="Sun Ruwen" class="maestro__foto">
+					<!-- <img src="img/maestros/pa-kua/sun-ruwen.jpg" alt="Sun Ruwen" class="maestro__foto"> -->
 				</article>
 				<div class="linaje__arrow">
 					<div class="linaje__arrow__c1"></div>
@@ -89,7 +89,7 @@ header('Content-Type: text/html; charset=utf-8');
 				</div>
 				<article class="maestro">
 					<h3 class="maestro__nombre">Huang Zicheng</h3>
-					<img src="img/maestros/pa-kua/huang-zicheng.jpg" alt="Huang Zicheng" class="maestro__foto">
+					<!-- <img src="img/maestros/pa-kua/huang-zicheng.jpg" alt="Huang Zicheng" class="maestro__foto"> -->
 				</article>
 				<div class="linaje__arrow">
 					<div class="linaje__arrow__c1"></div>
@@ -142,6 +142,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">dchoy@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->

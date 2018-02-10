@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 		<![endif]-->
 		<!-- CSS Links -->
@@ -131,18 +131,11 @@ header('Content-Type: text/html; charset=utf-8');
 					<br>
 					<div class="linaje__arrow__arrow"></div>
 				</div>
-				<article class="maestro">
+				<article class="maestro linaje-same-cat">
 					<h3 class="maestro__nombre">Luis Villano</h3>
 					<img src="img/maestros/tai-chi/luis-villano.jpg" alt="Luis Villano" class="maestro__foto">
 				</article>
-				<div class="linaje__arrow">
-					<div class="linaje__arrow__c1"></div>
-					<br>
-					<div class="linaje__arrow__c2"></div>
-					<br>
-					<div class="linaje__arrow__arrow"></div>
-				</div>
-				<article class="maestro">
+				<article class="maestro linaje-same-cat">
 					<h3 class="maestro__nombre">Carolina Alegre</h3>
 					<img src="img/maestros/tai-chi/carolina-alegre.jpg" alt="Carolina Alegre" class="maestro__foto">
 				</article>
@@ -164,6 +157,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -179,6 +174,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -194,6 +191,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -209,6 +208,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -228,6 +229,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Bvar. Artigas 1168</p>
 								<br>
 								<p class="filial__localidad">Montevideo - Uruguay</p>
+								<br>
+								<p class="filial__mail">calegre@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -243,6 +246,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Bvar. Artigas 1168</p>
 								<br>
 								<p class="filial__localidad">Montevideo - Uruguay</p>
+								<br>
+								<p class="filial__mail">calegre@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->

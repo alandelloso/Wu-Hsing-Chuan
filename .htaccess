@@ -3,8 +3,12 @@ AddDefaultCharset UTF-8
 RewriteEngine on
 
 RewriteRule ^inicio?$ index.php
-
+RewriteRule ^no-soportado?$ legacy.html
 
 RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 403 http://www.wuhsingchuan.com.ar/
+
+ErrorDocument 404 http://www.wuhsingchuan.com.ar/

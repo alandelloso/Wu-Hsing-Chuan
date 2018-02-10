@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<base href="../../">
 	<!--[if lt IE 9]>
 		<script>
-		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		window.location.href="http://www.wuhsingchuan.com.ar/no-soportado";
 		</script>
 	<![endif]-->
 	<!-- CSS Links -->
@@ -82,10 +82,6 @@ header('Content-Type: text/html; charset=utf-8');
 			<h3 class="maestro__nombre">Jorge Quiñones</h3>
 			<img src="img/maestros/ving-tsun/jorge-quinones.jpg" alt="Jorge Quiñones" class="maestro__foto">
 		</article>
-		<article class="maestro linaje-same-cat">
-			<h3 class="maestro__nombre">Alejo Velazquez</h3>
-			<img src="img/maestros/ving-tsun/alejo-velazquez.jpg" alt="Alejo Velazquez" class="maestro__foto">
-		</article>
 	</section>
 	<section class="filiales content-card dark">
 				<h2>Filiales y Horarios</h2>
@@ -104,6 +100,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -119,6 +117,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -134,6 +134,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -149,6 +151,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -164,21 +168,25 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
 						<!--INICIO FILIAL-->
 						<div class="filial">
 							<h3 class="filial__titulo">Sede Central</h3>
-							<img src="img/maestros/ving-tsun/alejo-velazquez.jpg" alt="Alejo Velazquez" class="filial__foto-instructor">
+							<img src="img/maestros/ving-tsun/isaias-velazquez.jpg" alt="Isaias Velazquez" class="filial__foto-instructor">
 							<div class="group1">
-								<h3 class="filial__sifu">Sifu Alejo Velazquez</h3>
+								<h3 class="filial__sifu">Instructor Isaias Velazquez</h3>
 								<p class="filial__horario">Martes y Jueves 20:00 a 22:00</p>
 							</div>
 							<div class="group2">
 								<p class="filial__direccion">Calle 6 N° 1210</p>
 								<br>
 								<p class="filial__localidad">La Plata - Argentina</p>
+								<br>
+								<p class="filial__mail">central@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -198,21 +206,76 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">La Rioja 847</p>
 								<br>
 								<p class="filial__localidad">C.A.B.A. - Argentina</p>
+								<br>
+								<p class="filial__mail">gnieva@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
 						<!--INICIO FILIAL-->
 						<div class="filial">
-							<h3 class="filial__titulo">Filial Bcas. de Belgrano</h3>
+							<h3 class="filial__titulo">Filial C. Universitaria</h3>
 							<img src="img/maestros/ving-tsun/carlos-giudice.jpg" alt="Carlos Giudice" class="filial__foto-instructor">
 							<div class="group1">
 								<h3 class="filial__sifu">Instructor Carlos Giudice</h3>
-								<p class="filial__horario">Miércoles y Viernes 18:30 a 20:00</p>
+								<p class="filial__horario">Lunes y Miércoles 15:00 a 16:30</p>
 							</div>
 							<div class="group2">
-								<p class="filial__direccion">Plaza Barrancas de Belgrano</p>
+								<p class="filial__direccion">Ciudad Universitaria</p>
 								<br>
 								<p class="filial__localidad">C.A.B.A. - Argentina</p>
+								<br>
+								<p class="filial__mail">cgiudice@wuhsingchuan.com.ar</p>
+							</div>
+						</div>
+						<!--FIN FILIAL-->
+						<!--INICIO FILIAL-->
+						<div class="filial">
+							<h3 class="filial__titulo">Filial Caballito</h3>
+							<img src="img/maestros/ving-tsun/carlos-giudice.jpg" alt="Carlos Giudice" class="filial__foto-instructor">
+							<div class="group1">
+								<h3 class="filial__sifu">Instructor Carlos Giudice</h3>
+								<p class="filial__horario">Martes y Jueves 18:00 a 19:30</p>
+							</div>
+							<div class="group2">
+								<p class="filial__direccion">Plaza Irlanda</p>
+								<br>
+								<p class="filial__localidad">C.A.B.A. - Argentina</p>
+								<br>
+								<p class="filial__mail">cgiudice@wuhsingchuan.com.ar</p>
+							</div>
+						</div>
+						<!--FIN FILIAL-->
+						<!--INICIO FILIAL-->
+						<div class="filial">
+							<h3 class="filial__titulo">Filial Palermo</h3>
+							<img src="img/maestros/ving-tsun/carlos-reymundo.jpg" alt="Carlos Reymundo" class="filial__foto-instructor">
+							<div class="group1">
+								<h3 class="filial__sifu">Instructor Carlos Reymundo</h3>
+								<p class="filial__horario">Lunes, Miércoles y Viernes 19:30</p>
+							</div>
+							<div class="group2">
+								<p class="filial__direccion">Lavalleja 1222</p>
+								<br>
+								<p class="filial__localidad">C.A.B.A. - Argentina</p>
+								<br>
+								<p class="filial__mail">creymundo@wuhsingchuan.com.ar</p>
+							</div>
+						</div>
+						<!--FIN FILIAL-->
+						<!--INICIO FILIAL-->
+						<div class="filial">
+							<h3 class="filial__titulo">Filial Palermo</h3>
+							<img src="img/maestros/ving-tsun/carlos-reymundo.jpg" alt="Carlos Reymundo" class="filial__foto-instructor">
+							<div class="group1">
+								<h3 class="filial__sifu">Instructor Carlos Reymundo</h3>
+								<p class="filial__horario">Lunes, Miércoles y Viernes 10:00</p>
+							</div>
+							<div class="group2">
+								<p class="filial__direccion">Lavalleja 1222</p>
+								<br>
+								<p class="filial__localidad">C.A.B.A. - Argentina</p>
+								<br>
+								<p class="filial__mail">creymundo@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -237,6 +300,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Araucarias 406 (Barrio Don Antonio)</p>
 								<br>
 								<p class="filial__localidad">Neuquen Capital - Argentina</p>
+								<br>
+								<p class="filial__mail">srios@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -252,6 +317,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Araucarias 406 (Barrio Don Antonio)</p>
 								<br>
 								<p class="filial__localidad">Neuquen Capital - Argentina</p>
+								<br>
+								<p class="filial__mail">srios@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -267,6 +334,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Entre Rios 1344</p>
 								<br>
 								<p class="filial__localidad">Santa Fe , V. Constitución - Argentina</p>
+								<br>
+								<p class="filial__mail">larias@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -286,7 +355,9 @@ header('Content-Type: text/html; charset=utf-8');
 							<div class="group2">
 								<p class="filial__direccion">Bvar. Artigas 1168</p>
 								<br>
-								<p class="filial__localidad">Monetvideo - Uruguay</p>
+								<p class="filial__localidad">Montevideo - Uruguay</p>
+								<br>
+								<p class="filial__mail">jquinones@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -301,7 +372,9 @@ header('Content-Type: text/html; charset=utf-8');
 							<div class="group2">
 								<p class="filial__direccion">Bvar. Artigas 1168</p>
 								<br>
-								<p class="filial__localidad">Monetvideo - Uruguay</p>
+								<p class="filial__localidad">Montevideo - Uruguay</p>
+								<br>
+								<p class="filial__mail">calegre@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
@@ -316,21 +389,6 @@ header('Content-Type: text/html; charset=utf-8');
 					<div class="filiales-flex">
 						<!--INICIO FILIAL-->
 						<div class="filial">
-							<h3 class="filial__titulo">Filial Las Condes</h3>
-							<img src="img/maestros/ving-tsun/diego-toucedo.jpg" alt="Diego Toucedo" class="filial__foto-instructor">
-							<div class="group1">
-								<h3 class="filial__sifu">Instructor Diego Toucedo</h3>
-								<p class="filial__horario">Lunes y Miércoles 20:00 a 21:30</p>
-							</div>
-							<div class="group2">
-								<p class="filial__direccion">Av. Las Condes 9434</p>
-								<br>
-								<p class="filial__localidad">Santiago - Chile</p>
-							</div>
-						</div>
-						<!--FIN FILIAL-->
-						<!--INICIO FILIAL-->
-						<div class="filial">
 							<h3 class="filial__titulo">Filial Shendao</h3>
 							<img src="img/maestros/ving-tsun/lucas-estrella.jpg" alt="Lucas Estrella" class="filial__foto-instructor">
 							<div class="group1">
@@ -341,6 +399,8 @@ header('Content-Type: text/html; charset=utf-8');
 								<p class="filial__direccion">Centro Shendao</p>
 								<br>
 								<p class="filial__localidad">Santiago - Chile</p>
+								<br>
+								<p class="filial__mail">lestrella@wuhsingchuan.com.ar</p>
 							</div>
 						</div>
 						<!--FIN FILIAL-->
